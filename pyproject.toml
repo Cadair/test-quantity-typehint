@@ -10,4 +10,5 @@ license-files = ["LICENSE"]
 dynamic = ["version", "description"]
 dependencies = [
     "astropy",
+    "sphinx-autodoc-typehints",
 ]
