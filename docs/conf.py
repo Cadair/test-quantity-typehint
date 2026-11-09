@@ -43,7 +43,7 @@ def quantity_formatter(annotation, config):
                 aunit = str(metadata[0])
             else:
                 aunit = metadata[0].to_string()
-            return f":class:`{atype_name}[{aunit}] <{atype_fqn}>`"
+            return f":class:`{atype_name}({aunit}) <{atype_fqn}>`"
 
 typehints_formatter = quantity_formatter
 # -- Options for HTML output -------------------------------------------------
